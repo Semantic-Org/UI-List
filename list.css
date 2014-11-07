@@ -338,6 +338,7 @@ ol.ui.list ol,
   color: rgba(255, 255, 255, 0.8);
 }
 
+<<<<<<< HEAD
 /* Item Link */
 .ui.inverted.list .list > a.item,
 .ui.inverted.list > a.item {
@@ -358,6 +359,8 @@ ol.ui.list ol,
   color: #00b2f3 !important;
 }
 
+=======
+>>>>>>> 592c85903a85da6770b2e16e9bc9ed70ff14b625
 /*-------------------
        Link
 --------------------*/
@@ -864,9 +867,12 @@ ol.ui.horizontal.list li:before,
          Theme Overrides
 *******************************/
 
+<<<<<<< HEAD
 
 
 /*******************************
     User Variable Overrides
 *******************************/
 
+=======
+>>>>>>> 592c85903a85da6770b2e16e9bc9ed70ff14b625

@@ -1,6 +1,10 @@
 {
   "name": "semantic-ui-list",
+<<<<<<< HEAD
   "version": "1.0.0-beta",
+=======
+  "version": "1.0.0",
+>>>>>>> 592c85903a85da6770b2e16e9bc9ed70ff14b625
   "title": "Semantic UI - List",
   "description": "Single component release of list",
   "homepage": "http://www.semantic-ui.com",
@@ -13,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
   },
+<<<<<<< HEAD
+=======
+  "dependencies": {
+    "jquery": "x.x.x"
+  },
+>>>>>>> 592c85903a85da6770b2e16e9bc9ed70ff14b625
   "devDependencies": {}
 }
