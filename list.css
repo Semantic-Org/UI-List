@@ -19,7 +19,7 @@ ul.ui.list,
 ol.ui.list,
 .ui.list {
   list-style-type: none;
-  margin: 0em;
+  margin: 1em 0em;
   padding: 0em 0em;
 }
 ul.ui.list:first-child,
@@ -470,17 +470,12 @@ ol.ui.list ol,
        Animated
 --------------------*/
 
-.ui.animated.list .list > .item,
 .ui.animated.list > .item {
   -webkit-transition: 0.2s color ease, 0.2s padding-left ease, 0.2s background-color ease;
           transition: 0.2s color ease, 0.2s padding-left ease, 0.2s background-color ease;
 }
-.ui.animated.list:not(.horizontal) .list > .item:hover,
 .ui.animated.list:not(.horizontal) > .item:hover {
   padding-left: 1em;
-}
-.ui.animated.list:not(.horizontal) .item:hover .list > .item:hover {
-  padding-left: 0.5em;
 }
 
 /*-------------------
@@ -516,7 +511,8 @@ ul.ui.list li:before,
 .ui.bulleted.list > .item:before {
   position: absolute;
   top: auto;
-  left: -1rem;
+  left: auto;
+  margin-left: -1rem;
   content: '•';
   opacity: 1;
   color: rgba(0, 0, 0, 0.8);
@@ -535,10 +531,6 @@ ul.ui.horizontal.bulleted.list,
 ul.ui.horizontal.bulleted.list li,
 .ui.horizontal.bulleted.list > .item {
   margin-left: 1.5rem;
-}
-ul.ui.horizontal.bulleted.list li:before,
-.ui.horizontal.bulleted.list > .item:before {
-  left: -1.1rem;
 }
 ul.ui.horizontal.bulleted.list li:first-child,
 .ui.horizontal.bulleted.list > .item:first-child {
@@ -571,7 +563,9 @@ ol.ui.list li:before,
 .ui.ordered.list .list > .item:before,
 .ui.ordered.list > .item:before {
   position: absolute;
-  left: -1.25rem;
+  top: auto;
+  left: auto;
+  margin-left: -1.25rem;
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
@@ -583,11 +577,11 @@ ol.ui.list li:before,
 /* Child Lists */
 ol.ui.list ol,
 .ui.ordered.list .list {
-  margin-left: 2em;
+  margin-left: 1em;
 }
 ol.ui.list ol li:before,
 .ui.ordered.list .list > .item:before {
-  left: -2em;
+  margin-left: -2em;
 }
 
 /* Horizontal Ordered */
@@ -635,10 +629,6 @@ ol.ui.horizontal.list li:before,
 .ui.divided.bulleted.list > .item:not(.horizontal) {
   padding-left: 1rem;
 }
-.ui.divided.bulleted.list .list > .item:before,
-.ui.divided.bulleted.list > .item:before {
-  left: 0em;
-}
 
 /* Divided Ordered */
 .ui.divided.ordered.list {
@@ -648,17 +638,13 @@ ol.ui.horizontal.list li:before,
 .ui.divided.ordered.list > .item {
   padding-left: 1.25rem;
 }
-.ui.divided.ordered.list .list > .item:before,
-.ui.divided.ordered.list > .item:before {
-  left: 0em;
-}
 .ui.divided.ordered.list .item .list {
   margin-left: 0em;
   margin-right: 0em;
   padding-bottom: 0.3em;
 }
 .ui.divided.ordered.list .item .list > .item {
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 /* Divided Selection */
@@ -728,10 +714,6 @@ ol.ui.horizontal.list li:before,
 .ui.celled.bulleted.list > .item {
   padding-left: 1rem;
 }
-.ui.celled.bulleted.list .list > .item:before,
-.ui.celled.bulleted.list > .item:before {
-  left: 0em;
-}
 .ui.celled.bulleted.list .item .list {
   margin-left: -1rem;
   margin-right: -1rem;
@@ -746,17 +728,13 @@ ol.ui.horizontal.list li:before,
 .ui.celled.ordered.list > .item {
   padding-left: 1.25rem;
 }
-.ui.celled.ordered.list .list > .item:before,
-.ui.celled.ordered.list > .item:before {
-  left: 0em;
-}
 .ui.celled.ordered.list .item .list {
   margin-left: 0em;
   margin-right: 0em;
   padding-bottom: 0.3em;
 }
 .ui.celled.ordered.list .list > .item {
-  padding-left: 2em;
+  padding-left: 1em;
 }
 
 /* Celled Horizontal */
@@ -828,35 +806,67 @@ ol.ui.horizontal.list li:before,
 
 .ui.mini.list .list > .item,
 .ui.mini.list > .item {
-  font-size: 0.7rem;
+  font-size: 0.7142em;
 }
 .ui.tiny.list .list > .item,
 .ui.tiny.list > .item {
-  font-size: 0.8rem;
+  font-size: 0.8571em;
 }
 .ui.small.list .list > .item,
 .ui.small.list > .item {
-  font-size: 0.9rem;
+  font-size: 0.9285em;
 }
 .ui.list .list > .item,
 .ui.list > .item {
-  font-size: 1rem;
+  font-size: 1em;
 }
 .ui.large.list .list > .item,
 .ui.large.list > .item {
-  font-size: 1.1rem;
+  font-size: 1.1428em;
 }
 .ui.big.list .list > .item,
 .ui.big.list > .item {
-  font-size: 1.2rem;
+  font-size: 1.2857em;
 }
 .ui.huge.list .list > .item,
 .ui.huge.list > .item {
-  font-size: 1.3rem;
+  font-size: 1.4285em;
 }
 .ui.massive.list .list > .item,
 .ui.massive.list > .item {
-  font-size: 1.5rem;
+  font-size: 1.7142em;
+}
+.ui.mini.horizontal.list .list > .item,
+.ui.mini.horizontal.list > .item {
+  font-size: 0.7142rem;
+}
+.ui.tiny.horizontal.list .list > .item,
+.ui.tiny.horizontal.list > .item {
+  font-size: 0.8571rem;
+}
+.ui.small.horizontal.list .list > .item,
+.ui.small.horizontal.list > .item {
+  font-size: 0.9285rem;
+}
+.ui.horizontal.list .list > .item,
+.ui.horizontal.list > .item {
+  font-size: 1rem;
+}
+.ui.large.horizontal.list .list > .item,
+.ui.large.horizontal.list > .item {
+  font-size: 1.1428rem;
+}
+.ui.big.horizontal.list .list > .item,
+.ui.big.horizontal.list > .item {
+  font-size: 1.2857rem;
+}
+.ui.huge.horizontal.list .list > .item,
+.ui.huge.horizontal.list > .item {
+  font-size: 1.4285rem;
+}
+.ui.massive.horizontal.list .list > .item,
+.ui.massive.horizontal.list > .item {
+  font-size: 1.7142rem;
 }
 
 
