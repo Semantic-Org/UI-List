@@ -8,6 +8,10 @@
 - **List** - List images can now specify vertical alignment
 - **List** - List spacing defaults have been adjusted to be more consistent
 
+### Version 0.19.0 - July 3, 2014
+
+- **Accordion** - Fixes incompatibilities with ``ui list`` when used inside a ``ui accordion``, fixes issues with menu accordion display in some circumstances
+
 ### Version 0.14.0 - Mar 03, 2014
 
 - **List** - Bulleted and horizontal lists now appear correctly in IE10-11
