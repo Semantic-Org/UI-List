@@ -1,3 +1,7 @@
+### Version 1.3.0 - December 17, 2014
+
+- Updates to reflect all new changes to UI listed above
+
 ### Version 1.0.0 - November 24, 2014
 
 - **List** - List item selectors are now more strict, list items must be immediate children of ``ui list`` or ``ui list list``
