@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Version 1.8.0 - January 23, 2015
 
 - **List** - `relaxed list` and `very relaxed list` no longer add padding to child menu items
@@ -6,6 +7,8 @@
 
 - **Installer** - Fix issue with component list in `semantic.json` not correctly overriding default components
 
+=======
+>>>>>>> 0b27a4f9a510474ea10edcbac84b91aff0543fa1
 ### Version 1.7.0 - January 14, 2015
 
 - **List** - Fix some styling issues with `ui list` inside `ui menu`

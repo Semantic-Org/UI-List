@@ -1,6 +1,10 @@
 {
   "name": "semantic-ui-list",
+<<<<<<< HEAD
   "version": "1.0.0-beta",
+=======
+  "version": "1.7.2",
+>>>>>>> 0b27a4f9a510474ea10edcbac84b91aff0543fa1
   "title": "Semantic UI - List",
   "description": "Single component release of list",
   "homepage": "http://www.semantic-ui.com",
@@ -8,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Semantic-Org/UI-List.git"
+    "url": "https://github.com/Semantic-Org/UI-List.git"
   },
   "bugs": {
     "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
