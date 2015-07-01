@@ -1,3 +1,17 @@
+### Version 2.0.0 - June 30, 2015
+
+- **Dropdown** - Keyboard shortcuts have been added for selecting dropdown choices, for example "N" will scroll to "New York" in a state selection list, similar to native `<select>` behavior.
+- **List** - Any content inside a `ui list` can now be vertically aligned
+- **Dropdown** - Fixed issue with `search selection` not changing text when reselecting same value from list
+- **List** - `horizontal list` are now aligned `middle` by default, while vertical lists are aligned `top`.
+- **List** - Fixes numbers not appearing when using `inverted ordered list` **Thanks @pcj**
+- **List** - `a` elements inside a `ui list` will no longer apply styles on `ui` elements like `button` **Thanks @ahtinurme**
+- **List** - Fixed `divided bulleted list` child lists getting wrong indent
+- **List** - Bullets and numbers are no longer selectable in `bulleted list` and `ordered list`
+- **List** - Fixed `inverted bulleted list` bullet color
+- **List** - Fix first element touches border on `ui horizontal celled list`
+- **List** - Added many new variables for link stylings inside list, added separate variables and defaults for child-list spacing
+
 ### Version 1.8.0 - January 23, 2015
 
 - **List** - `relaxed list` and `very relaxed list` no longer add padding to child menu items
