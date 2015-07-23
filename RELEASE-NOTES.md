@@ -1,3 +1,7 @@
+### Version 2.0.6 - July 22, 2015
+
+- **List**- Fixed issue where using an image variation like `ui image label` as a direct child of an `item` would remove right padding [#2691](https://github.com/Semantic-Org/Semantic-UI/issues/2691)
+
 ### Version 2.0.0 - June 30, 2015
 
 - **Dropdown** - Keyboard shortcuts have been added for selecting dropdown choices, for example "N" will scroll to "New York" in a state selection list, similar to native `<select>` behavior.
