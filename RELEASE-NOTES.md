@@ -1,3 +1,7 @@
+#### Bugs
+
+- **List** - Lists can now be `right floated` or `left floated`
+
 ### Version 2.0.6 - July 22, 2015
 
 - **List**- Fixed issue where using an image variation like `ui image label` as a direct child of an `item` would remove right padding [#2691](https://github.com/Semantic-Org/Semantic-UI/issues/2691)
