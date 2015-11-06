@@ -1,3 +1,7 @@
+### Version 2.1.5 - Nov 1, 2015
+
+- **Form Validation** - Fixes error on `blur` or `change` when using a blank validation object [#3131](https://github.com/Semantic-Org/Semantic-UI/issues/3131) **Thanks @listepo**
+
 ### Version 2.1.4 - Sep 13, 2015
 
 - **Message** - `ui list` used inside `ui message` now aligns properly in all conditions [#2958](https://github.com/Semantic-Org/Semantic-UI/issues/2958)
