@@ -1,3 +1,6 @@
+### Version 2.1.7 - Dec 19, 2015
+[Closed Issues List](https://github.com/Semantic-Org/Semantic-UI/issues?q=is%3Aissue+milestone%3A2.1.7+is%3Aclosed)
+
 ### Version 2.1.5 - Nov 1, 2015
 
 - **Form Validation** - Fixes error on `blur` or `change` when using a blank validation object [#3131](https://github.com/Semantic-Org/Semantic-UI/issues/3131) **Thanks @listepo**
