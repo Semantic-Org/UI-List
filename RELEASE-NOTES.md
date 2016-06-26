@@ -1,3 +1,9 @@
+### Version 2.2.0 - June 26, 2016
+
+- **List** - `relaxed` and `very relaxed` lists included unnecessary padding on the first and last items [#3710](https://github.com/Semantic-Org/Semantic-UI/issues/3710)
+- **List** - Bullets would be affected by font weight, or whether the list item was a link [#3715](https://github.com/Semantic-Org/Semantic-UI/issues/3715) [#3721](https://github.com/Semantic-Org/Semantic-UI/issues/3721)
+- **List** - Divided lists had unnecessary padding on first and last items, in both horizontal and vertical layouts [#3710](https://github.com/Semantic-Org/Semantic-UI/issues/3710)
+
 ### Version 2.1.7 - Dec 19, 2015
 [Closed Issues List](https://github.com/Semantic-Org/Semantic-UI/issues?q=is%3Aissue+milestone%3A2.1.7+is%3Aclosed)
 
