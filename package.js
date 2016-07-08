@@ -2,7 +2,7 @@
 Package.describe({
   name    : 'semantic:ui-list',
   summary : 'Semantic UI - List: Single component release',
-  version : '2.2.1',
+  version : '2.2.2',
   git     : 'git://github.com/Semantic-Org/UI-List.git',
 });
 
