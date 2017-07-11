@@ -1,3 +1,8 @@
+### Version 2.2.11 - July 11, 2017
+
+- **Dropdown** - Fixed issue where `search selection dropdown` would reset list to top after selection when re-opening dropdown [#4506](https://github.com/Semantic-Org/Semantic-UI/issues/4506)
+- **Form Validation** - Added undocumented `add prompt` to list of behaviors
+
 ### Version 2.2.0 - June 26, 2016
 
 - **List** - `relaxed` and `very relaxed` lists included unnecessary padding on the first and last items [#3710](https://github.com/Semantic-Org/Semantic-UI/issues/3710)
