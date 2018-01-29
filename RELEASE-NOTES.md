@@ -1,3 +1,7 @@
+### Version 2.2.14 - Jan 29, 2018
+
+- **Menu / Popup** - Fixed issue where `inverted menu` rules would cause popup inside a menu to have incorrect link styling in `link list` **Thanks @banandrew** [#5585](https://github.com/Semantic-Org/Semantic-UI/issues/5585) [#5603](https://github.com/Semantic-Org/Semantic-UI/issues/5603)
+
 ### Version 2.2.12 - Aug 07, 2017
 
 - **Dropdown** - Dropdown can now have `values` specified in javascript when initializing.This should simplify cases where dropdown contents are contingent on other fields, for example listing sub categories. You can see some [examples here](https://jsfiddle.net/Lb7c5dkz/) and in the [usage section of dropdown docs](https://www.semantic-ui.com/modules/dropdown.html#initializing-with-javascript-only)
