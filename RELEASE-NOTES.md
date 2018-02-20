@@ -1,3 +1,7 @@
+### Version 2.3.0 - Feb 19, 2018
+
+- **Icons** - Icon documentation now lists publicly all icon aliases
+
 ### Version 2.2.14 - Jan 29, 2018
 
 - **Menu / Popup** - Fixed issue where `inverted menu` rules would cause popup inside a menu to have incorrect link styling in `link list` **Thanks @banandrew** [#5585](https://github.com/Semantic-Org/Semantic-UI/issues/5585) [#5603](https://github.com/Semantic-Org/Semantic-UI/issues/5603)
