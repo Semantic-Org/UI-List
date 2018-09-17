@@ -1,3 +1,7 @@
+### Version 2.4.0 - Sep 17, 2018
+
+- **List** - Fixed issue where list `content` would not take up 100% width when used alongside `img` or `icon`
+
 ### Version 2.3.0 - Feb 20, 2018
 
 - **Icons** - Icon documentation now lists publicly all icon aliases
